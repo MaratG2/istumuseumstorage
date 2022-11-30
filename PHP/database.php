@@ -11,5 +11,5 @@ header('Access-Control-Allow-Headers: Accept, X-Access-Token, X-Application-Name
 	$db_username = "eudqcffpovolpi"; // DB username 
 	$db_password = "65f254f251471be22f035c26958c8cfad49fc31c9e8134febf4f4c165bd47665"; // DB password 
 
-	$db = pg_connect("host=" + $host + " port=" + $port + " dbname=" + $db_name + " user=" + db_username + "  password=" + $db_password + " sslmode=Prefer" + " Trust Server Certificate=true") or die("Connection error");
+	$db = pg_connect("host=" + $host + " port=" + $port + " dbname=" + $db_name + " user=" + $db_username + "  password=" + $db_password + " sslmode=Prefer" + " Trust Server Certificate=true") or die("Connection error");
 ?>
